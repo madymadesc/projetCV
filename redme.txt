@@ -1,0 +1,61 @@
+mady.camara@DCIREODC18 MINGW64 ~
+$ cd /d
+
+mady.camara@DCIREODC18 MINGW64 /d (master)
+$ ls
+'$RECYCLE.BIN'/   ProjetGit/  'System Volume Information'/   projetCV/
+
+mady.camara@DCIREODC18 MINGW64 /d (master)
+$ cd projetCV/
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ ls
+cv.html  photocv.jpg  stylecv.css
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ touch redme.txt
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ ls
+cv.html  photocv.jpg  redme.txt  stylecv.css
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ git init
+Reinitialized existing Git repository in D:/projetCV/.git/
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ git add .
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ git commit -m "mon cv"
+[main e19f38e] mon cv
+ Committer: Mady Camara <mady.camara@odc.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 redme.txt
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ git branch -m main
+
+mady.camara@DCIREODC18 MINGW64 /d/projetCV (main)
+$ git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 41.85 KiB | 8.37 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/madymadesc/projetCV.git
+ * [new branch]      main -> main
